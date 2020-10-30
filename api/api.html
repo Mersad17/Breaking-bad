@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Breaking Bad</title>
+    <link rel = "icon" href =  
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoTenT66Oih5g695Rpi75l9y6q2YmAgqZeng&usqp=CAU" 
+            type = "image/x-icon"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="buton" class="butonat but ">
+      <button id="span">Personnages</button>
+      <button id="eps" >Episodes</button>
+      <button id="citationButton" >Citation</button>
+    
+    </div>
+
+    <div id="the-Changing-Div"> 
+
+
+      <div id="photoPlace" >
+       
+        
+
+      </div>
+
+      <div>
+        <input id="recherche" type="text" placeholder="Recherche" >
+        <div id="serie" class="serieBlock" >
+          
+          
+        </div>
+        
+        <div id="episodesDiv">
+          
+          
+          
+        </div>
+      </div>
+      <div id="citPerso">
+        <div id="replique">
+          <div id="random"></div>
+          <h6>LES REPLIQUES DES PERSONNAGES</h6>
+          <select name="select" id="select">
+           
+          </select>
+        </div>
+        
+        <div id="citation" >
+          
+          
+        </div>
+      </div>
+    </div>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
+      <script src="api.js"></script>
+
+
+   <?php
+  $mytext = $_POST['name'];
+  echo $mytext;
+?>
+    </body>
+</html>

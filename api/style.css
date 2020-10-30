@@ -1,0 +1,178 @@
+body{
+  background-image: url("https://www.malcolm-france.com/wp-content/uploads/breaking-bad_promo-saison-4_walter-jesse-jaune_amc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* pour les characters */
+.but{
+  border-bottom : 2px solid #cfa224;
+  padding: 20px;
+}
+
+button{
+  border-radius: 12px;
+  background-color: #cfa224; /* Green */
+  color: white;
+  border: 2px solid #cfa224;
+  transition-duration: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+.pointer{
+  cursor: pointer;
+}
+#recherche{
+  display: none;
+  position: relative;
+  left: 18%;
+  margin-top: 25px;
+
+}
+#span{
+  margin-right: 23px;
+}
+#eps{
+  margin-right: 23px;
+}
+.butonat{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.serieBlock{
+  display: flex;
+  
+  width: 77%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+}
+
+.card{
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content:space-between;
+ 
+    display: flex;
+    width: 31%;
+    margin: 20px 0;
+    background-color: black;
+    color: antiquewhite;
+    padding: 0;
+    text-align: center;
+
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+/* episodes */
+/* episodes */
+/* episodes */
+#episodesDiv{
+  display: flex;
+  margin: auto;
+  width: 63%;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+}
+.allEpisodes{
+
+    display: flex;
+    width: 45%;
+    margin: 20px 1px;
+    color: black;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding: 1px;
+    border: 1px solid black;
+
+}
+.episodes{
+  margin: 10px;
+}
+/* Citation */
+/* Citation */
+/* Citation */
+#citPerso{
+  background-color: white;
+  margin: auto;
+  width: 63%;
+}
+#replique{
+  margin-top: 37px;;
+  padding: 22px;
+  display:none;
+  background-color: #cfa224;
+  color: white;
+}
+#citation{
+ padding: 22px;
+  background-color: #cfa224;
+  display: flex;
+  margin: auto;
+  width: 63%;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+}
+.allCitation{
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+  color: white;
+  
+  flex-direction: column
+
+}
+.citations{
+ text-align: end;
+}
+
+
+
+/* pour photo */
+#photoPlace{
+
+  width: 70%;
+  justify-content: center;
+  margin: 40px auto;
+  color:white;
+  text-align: center;
+}
+.imgPhoto{
+  width: 50%;
+  height: 270px;
+  border-radius: 46%;
+}
+
+.buttonPhoto{
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+/* random quote */
+#random{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  flex-flow: column;
+
+}
+#author{
+justify-self: end;
+padding-left: 50%;
+}
